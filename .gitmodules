@@ -1,0 +1,3 @@
+[submodule "urlgrabber"]
+	path = urlgrabber
+	url = https://github.com/rpm-software-management/urlgrabber.git
