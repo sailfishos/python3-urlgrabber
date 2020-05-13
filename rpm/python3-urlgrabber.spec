@@ -35,6 +35,7 @@ Command line tool using urlgrabber.
 
 %build
 sed -i -e "s/pkg_name \(+ '-' +\) pkg_version/'%{name}' \1 '%{version}'/" setup.py
+sed -i -e "s|/usr/bin/python|%{__python3}|" scripts/*
 %{py3_build}
 
 %install
