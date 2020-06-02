@@ -46,8 +46,8 @@ rm -rf %{buildroot}
 %defattr(-,root,root,-)
 %doc ChangeLog LICENSE README TODO
 %{_libexecdir}/urlgrabber-ext-down
-%{python3_sitearch}/urlgrabber
-%{python3_sitearch}/urlgrabber-*.egg-info
+%{python3_sitelib}/urlgrabber
+%{python3_sitelib}/urlgrabber-*.egg-info
 
 %files -n urlgrabber
 %{_bindir}/urlgrabber
