@@ -3,7 +3,7 @@ Summary:    Pure python package that drastically simplifies the fetching of file
 Version:    4.1.0
 Release:    1
 License:    LGPLv2+
-URL:        https://pypi.org/project/urlgrabber
+URL:        https://github.com/sailfishos/python3-urlgrabber
 BuildArch:  noarch
 Source0:    %{name}-%{version}.tar.bz2
 Patch0:     0001-Add-argument-netrc_optional-to-URLGrabber.patch
